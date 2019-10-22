@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/my_id0" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_myaccount"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_myplan"
+            android:icon="@drawable/ic_plan"
+            android:title="My Plan" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_card"
+            android:title="My Bank Account" />
+        <item
+            android:id="@+id/nav_deposit"
+            android:icon="@drawable/ic_deposit"
+            android:title="DRD Point" />
+    </group>
+    <group android:id="@+id/my_id41" android:checkableBehavior="single">
+        <!-- Divider will appear above this item -->
+        <item
+            android:id="@+id/nav_invitation"
+            android:icon="@drawable/ic_team"
+            android:title="My Contact" />
+        <!--<item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_newchat"
+            android:title="Chat" />-->
+    </group>
+    <group android:id="@+id/my_id4b" android:checkableBehavior="single">
+        <!-- Divider will appear above this item -->
+        <item
+            android:id="@+id/nav_podcast"
+            android:icon="@drawable/ic_podcast"
+            android:title="Podcast" />
+        <item
+            android:id="@+id/nav_videotube"
+            android:icon="@drawable/ic_videotube"
+            android:title="Video Tube" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_newsinfo"
+            android:title="News &amp; Info" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Figure" />
+    </group>
+    <group android:id="@+id/my_id4" android:checkableBehavior="single">
+        <!-- Divider will appear above this item -->
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutapps"
+            android:title="About Us" />
+        <!--<item
+            android:id="@+id/nav_howto"
+            android:icon="@drawable/ic_howto"
+            android:title="How to" />-->
+    </group>
+
+    <group android:id="@+id/my_id5" android:checkableBehavior="single">
+        <!-- Divider will appear above this item -->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="Logout" />
+
+    </group>
+    <!--</menu>
+</item>-->
+
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="minutesBeforePickup">30</integer>
+    <integer name="inboxTimer">30000</integer> <!--1000*30-->
+    <integer name="inboxChatTimer">15000</integer> <!--1000*15-->
+    <integer name="mapTrackingTimer">15000</integer> <!--1000*15-->
+    <integer name="paginateLoadingTriggerThreshold">2</integer>
+    <integer name="pageSize">20</integer>
+    <integer name="minTopupDeposit">10000</integer>
+    <integer name="MemberCareId">9708</integer>
+    <integer name="DivPointReward">1000</integer>
+    <integer name="GOOGLE_API_CLIENT_ID">0</integer>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="inboxTimer">30000</integer> <!--1000*30-->
+    <integer name="inboxChatTimer">15000</integer> <!--1000*15-->
+    <integer name="paginateLoadingTriggerThreshold">2</integer>
+    <integer name="pageSize">20</integer>
+</resources>

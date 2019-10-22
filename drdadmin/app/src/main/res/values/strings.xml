@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">DRD Admin</string>
+    <string name="date_format">dd MMM yyyy</string>
+    <string name="date_format_standard">dd/MM/yyyy</string>
+
+    <string name="time_format">HH:mm</string>
+
+    <string name="urlApplApi">https://api.drddashboard.com/api</string>
+    <string name="urlApplWeb">https://drddashboard.com</string>
+    <string name="urlApplBaseApi">https://api.drddashboard.com</string>
+
+    <string name="save_data_success">Save data success.</string>
+    <string name="save_data_problem">Save data problem , please try again.</string>
+    <string name="fetch_data_problem">Problem fetching data, please try again.</string>
+
+    <string name="api_useradmin_login">%1$s/useradmin?email=%2$s&amp;password=%3$s</string>
+    <string name="api_useradmin_changepwd">%1$s/useradmin?email=%2$s&amp;oldPassword=%3$s&amp;newPassword=%4$s</string>
+    <string name="api_useradmin_logout">%1$s/useradmin?id=%2$d</string>
+
+    <string name="api_get_moduleallactive">%1$s/module/allactive</string>
+
+    <string name="api_dashboard_compare">%1$s/dashboard/admin/compare</string>
+    <string name="api_dashboard_count">%1$s/dashboard/admin/count</string>
+
+    <string name="api_memtopup_confirmed">%1$s/memtopuppay/confirmed?id=%2$d</string>
+    <string name="api_memtopup_notconfirmed">%1$s/memtopuppay/notconfirmed?id=%2$d</string>
+    <string name="api_memtopup_get_id">%1$s/memtopup?Id=%2$d</string>
+    <string name="api_memtopup_get">%1$s/memtopup?memberId=%2$d&amp;page=%3$d&amp;pageSize=%4$d&amp;order=%5$s&amp;criteria=%6$s</string>
+    <string name="api_memtopup_get_command">%1$s/memtopup/countdetail?command=%2$s&amp;page=%3$d&amp;pageSize=%4$d&amp;order=%5$s&amp;criteria=%6$s</string>
+    <string name="api_memtopup_save">%1$s/memtopup/save</string>
+    <string name="api_memtopup_updatestatus">%1$s/memtopup/updatestatus?id=%2$d&amp;status=%3$s</string>
+
+    <string name="api_ppob_balance">%1$s/ppob/balance?clientPrefix=CC</string>
+    <string name="api_ppob_plntokenmanualadvice">%1$s/plntoken/manualadvice?trxId=%2$d</string>
+    <string name="api_ppob_plntokenhistorylite">%1$s/dashboard/admin/mapending?page=%2$d&amp;pageSize=%3$d&amp;order=%4$s&amp;criteria=%5$s</string>
+
+
+    <string name="api_product_get">%1$s/product?Id=%2$d</string>
+    <string name="api_product_getlite">%1$s/product?zone=%2$s&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+    <string name="api_product_discussion_list">%1$s/product/discussionlist?productId=%2$d&amp;page=%3$d&amp;pageSize=%4$d&amp;order=%5$s&amp;criteria=%6$s</string>
+    <string name="api_product_review_list">%1$s/product/reviewlist?productId=%2$d&amp;page=%3$d&amp;pageSize=%4$d&amp;order=%5$s&amp;criteria=%6$s</string>
+    <string name="api_product_savediscu">%1$s/product/savediscu</string>
+    <string name="api_product_savediscudtl">%1$s/product/savediscudtl</string>
+    <string name="api_product_discussion">%1$s/product/discussion?id=%2$d&amp;ownerType=%3$d</string>
+
+    <string name="api_po_lite">%1$s/po/lite?zone=%2$s&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+    <string name="api_po_getid">%1$s/po?id=%2$d</string>
+    <string name="api_po_savereview">%1$s/po/review</string>
+    <string name="api_po_savereviewresponse">%1$s/po/reviewresponse</string>
+    <string name="api_po_updatestatus">%1$s/po/updatestatus?id=%2$d&amp;status=%3$s</string>
+    <string name="api_po_cancel">%1$s/po/cancel?id=%2$d&amp;cancelId=%3$d</string>
+
+    <string name="api_po_reviewlite">%1$s/po/reviewlite?zone=%2$s&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+    <string name="api_po_getreviewid">%1$s/po/reviewid?id=%2$d</string>
+
+    <string name="api_cancelation">%1$s/cancelation?type=0</string>
+
+</resources>

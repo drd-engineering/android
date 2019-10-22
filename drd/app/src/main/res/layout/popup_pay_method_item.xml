@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:id="@+id/payLogo"
+            android:layout_weight=".3"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:text="PT. BANK CENTRAL ASIA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/methodName"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:text="Branch Office"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/payDescr"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/separator" />
+</LinearLayout>

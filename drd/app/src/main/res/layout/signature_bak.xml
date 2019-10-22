@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+    <LinearLayout
+        android:id="@+id/canvasLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/weight_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/hint_cancel"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="@dimen/weight_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/hint_clear"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/getsign"
+            android:layout_width="@dimen/weight_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/hint_save"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                android:id="@+id/signaturePad"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/clearButton"
+                    android:layout_width="@dimen/weight_width"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_weight="1"
+                    android:text="@string/hint_clear"
+                    android:textAllCaps="false"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="@dimen/weight_width"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_weight="1"
+                    android:text="@string/hint_save"
+                    android:textAllCaps="false"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Under Indonesian law, a written signature is not necessarily required for a valid contract - contracts are generally valid if legally competent parties reach an agreement, whether they agree verbally, electronically or in a physical paper document, provided that the basic requirements of a contract under the Indonesian Civil Code are fulfilled i.e., (1) consent; (2) competency; (3) certainty and (4) permissible cause (i.e., it does not contravene the prevailing regulations and principles of public order and morality). The Law No. 11 of 2008 on Electronic Information and Transaction as amended by Law No. 19 of 2016 specifically confirms that electronic contracts are valid and acceptable. To prove a valid contract, parties sometimes have to present evidence in court. Leading digital transaction management solutions can provide electronic records that are admissible in evidence under Article 44 of Law No. 11 of 2008 on Electronic Information and Transaction, to support the existence, authenticity and valid acceptance of a contract."
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#c62828</color>
+
+    <color name="colorStatus">#263238</color>
+    <color name="colorSelected">#b2ebf2</color>
+    <color name="colorDisabled">#eeeeee</color>
+    <color name="colorError">#ffcdd2</color>
+
+    <color name="colorSubmit">@android:color/holo_blue_dark</color>
+    <color name="colorCancel">@android:color/holo_red_dark</color>
+    <color name="colorAddNew">@android:color/holo_orange_dark</color>
+
+    <color name="colorKaiDeparture">@android:color/holo_orange_dark</color>
+    <color name="colorKaiReturn">@android:color/holo_orange_light</color>
+
+    <color name="colorBased">#1f4043</color>
+    <color name="colorBasedLight">#47888e</color>
+    <color name="colorQRCodeBlack">@android:color/black</color>
+    <color name="colorQRCodeWhite">@android:color/white</color>
+
+    <color name="colorPrimarySmooth">#dcedc8</color>
+
+    <color name="colorBackPpob">#dcedc8</color>
+
+    <color name="actionbar_opacity">#33000000</color>
+
+    <color name="primary">#3F51B5</color>
+
+    <color name="primary_dark">#303F9F</color>
+
+    <color name="primary_light">#C5CAE9</color>
+
+    <color name="accent">#E040FB</color>
+
+    <color name="primary_text">#212121</color>
+
+    <color name="secondary_text">#727272</color>
+
+    <color name="icons">#FFFFFF</color>
+
+    <color name="divider">#B6B6B6</color>
+
+
+
+
+    <color name="default_screen_bg">#f9f9f9</color>
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+
+    <color name="text_lgray">#808080</color>
+    <color name="text_gray">#323232</color>
+
+
+    <!--signature-->
+    <color name="ColorPrimaryDark">#000000</color>
+    <color name="ColorPrimary">#202324</color>
+    <color name="BorderLineColor">#B8B9B1</color>
+    <color name="CanvasBackground">#ffffff</color>
+</resources>

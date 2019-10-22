@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="EXPANDABLE_TEXT_MAX_LINE">10</integer>
+
+    <integer name="MAX_PRODUCT_IMAGE">5</integer>
+    <integer name="PAGE_SIZE">20</integer>
+    <integer name="MAX_IMAGE_WIDTH">300</integer>
+    <integer name="paginateLoadingTriggerThreshold">2</integer>
+</resources>

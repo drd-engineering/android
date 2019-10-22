@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6E6E6"
+    android:orientation="horizontal"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".65"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:srcCompat="@android:drawable/sym_action_call" />
+
+        <ImageButton
+            android:id="@+id/btnSms"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:srcCompat="@drawable/ic_action_email" />
+
+        <ImageButton
+            android:id="@+id/btnChat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:srcCompat="@drawable/ic_action_chat2" />
+
+        <ImageButton
+            android:id="@+id/btnReview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:elevation="1dp"
+            app:srcCompat="@drawable/ic_action_important" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBooking"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".35"
+        android:background="@android:color/holo_red_dark"
+        android:text="BELI"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

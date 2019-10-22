@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_id">drd-id</string>
+    <string name="app_name">DRD</string>
+    <string name="app_description">DRD Indonesia</string>
+    <string name="main_zone">MAKAYA</string>
+
+    <!--<string name="admob_app_id">ca-app-pub-6795239017986830~5847613544</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="urlApplApi">https://api.drddashboard.com/api</string>
+    <string name="urlApplWeb">https://drddashboard.com</string>
+    <string name="urlApplBaseApi">https://api.drddashboard.com</string>
+
+
+    <string name="api_dashboard_count">%1$s/dashboard/count?memberId=%2$d</string>
+    <string name="api_dashboard_compare">%1$s/dashboard/compare?memberId=%2$d</string>
+
+    <string name="api_rotation_member">%1$s/rotation?memberId=%2$d</string>
+    <string name="api_rotation_progress_member">%1$s/rotation/status?memberId=%2$d&amp;status=%3$s&amp;topCriteria=%4$s&amp;page=%5$d&amp;pageSize=%6$d</string>
+    <string name="api_rotation_progressnode_member">%1$s/rotation/nodestatus?memberId=%2$d&amp;status=%3$s&amp;topCriteria=%4$s&amp;page=%5$d&amp;pageSize=%6$d</string>
+    <string name="api_rotation_byid">%1$s/rotation?id=%2$d&amp;memberId=%2$d</string>
+
+    <string name="api_rotation_inbox_member">%1$s/rotation/inbox?memberId=%2$d</string>
+    <string name="api_rotation_inbox_node">%1$s/rotation/node?id=%2$d</string>
+    <string name="api_rotation_process">%1$s/rotation/process?bit=%2$d</string>
+
+    <string name="api_document_checksignature">%1$s/document/CheckingSignature?memberId=%2$d</string>
+    <string name="api_document_checkprivatestamp">%1$s/document/CheckingPrivateStamp?memberId=%2$d</string>
+    <string name="api_document_company">%1$s/document/lite?memberId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+    <string name="api_document">%1$s/document?memberId=%2$d&amp;rotationNodeId=%3$d&amp;documentId=%4$d</string>
+    <string name="api_document_permission">%1$s/document/permission?memberId=%2$d&amp;rotationNodeId=%3$d&amp;documentId=%4$d</string>
+
+    <string name="api_get_version">%1$s/versioning?package=%2$s</string>
+
+    <string name="api_get_companycode">%1$s/company?code=%2$s</string>
+    <string name="api_save_registry">%1$s/company/registration</string>
+
+    <string name="api_member_login">%1$s/member/login?username=%2$s&amp;password=%3$s</string>
+    <string name="api_member_logout">%1$s/member/logout?id=%2$d</string>
+    <string name="api_member_changepwd">%1$s/member/changepwd?memberId=%2$d&amp;oldpassword=%3$s&amp;newpassword=%4$s</string>
+    <string name="api_member_register">%1$s/member/registration</string>
+    <string name="api_member_criteria">%1$s/member?criteria=%2$s&amp;excludeid=%3$d&amp;page=%4$d&amp;pageSize=%5$d</string>
+    <string name="api_member_photo">%1$s/member/photoprofile?memberId=%2$d&amp;fileName=%3$s</string>
+    <string name="api_member_image">%1$s/member/image?memberId=%2$d&amp;fileName=%3$s&amp;imageType=%4$d</string>
+    <string name="api_member_ktpno">%1$s/member/ktpno?memberId=%2$d&amp;ktpNo=%3$s</string>
+    <string name="api_member_title">%1$s/member/title</string>
+    <string name="api_member_plan">%1$s/member/plan?memberId=%2$d</string>
+    <string name="api_member_validpwd">%1$s/member/validpwd?memberId=%2$d&amp;password=%3$s</string>
+
+
+
+    <string name="api_get_paymethod">%1$s/paymethod</string>
+    <string name="api_get_bank">%1$s/bank</string>
+    <string name="api_get_companybank">%1$s/companybank</string>
+
+    <string name="api_topup_paymethodtype">BT,VC,PVA,CC</string>
+
+    <string name="api_topup_get_id">%1$s/memtopup?Id=%2$d</string>
+    <string name="api_topup_get">%1$s/memtopup?memberId=%2$d&amp;page=%3$d&amp;pageSize=%4$d&amp;order=%5$s&amp;criteria=%6$s</string>
+    <string name="api_topup_save">%1$s/memtopup/save</string>
+    <string name="api_topup_updatestatus">%1$s/memtopup/updatestatus?id=%2$d&amp;status=%3$s</string>
+
+    <string name="api_topuppay_save">%1$s/memtopuppay/save</string>
+    <string name="api_topuppay_updatestatus">%1$s/memtopuppay/updatestatus?id=%2$d&amp;status=%3$s</string>
+
+    <string name="api_member_account_save">%1$s/memberacc/save</string>
+    <string name="api_member_account_update">%1$s/memberacc/update</string>
+    <string name="api_member_account_get">%1$s/memberacc?id=%2$d</string>
+    <string name="api_member_account_getmember">%1$s/memberacc/member?id=%2$d</string>
+
+    <string name="api_deposittrx_lite">%1$s/deposittrx?memberId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+
+    <string name="api_news_getlite">%1$s/newslite?memberId=%2$d&amp;type=%3$d&amp;topCriteria=%4$s&amp;page=%5$d&amp;pageSize=%6$d&amp;order=%7$s&amp;criteria=%8$s</string>
+    <string name="api_news_getlite2">%1$s/newslite2?memberId=%2$d&amp;types=%3$s&amp;topCriteria=%4$s&amp;page=%5$d&amp;pageSize=%6$d&amp;order=%7$s&amp;criteria=%8$s</string>
+    <string name="api_news_getid">%1$s/news?id=%2$d&amp;memberId=%3$d</string>
+    <string name="api_newsvideo_get">%1$s/newsvideo?memberId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+    <string name="api_newsvideo_getid">%1$s/newsvideo?id=%2$d&amp;memberId=%3$d</string>
+    <string name="api_podcast_get">%1$s/podcast?memberId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d&amp;order=%6$s&amp;criteria=%7$s</string>
+    <string name="api_podcast_getid">%1$s/podcast?id=%2$d&amp;memberId=%3$d</string>
+
+    <string name="api_memberhitlog_save">%1$s/memberhitlog/save?id=%2$d&amp;memberId=%3$d&amp;hitType=%3$d</string>
+
+    <string name="api_invitation_invitation">%1$s/invitation/invitation?userId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d</string>
+    <string name="api_invitation_list">%1$s/invitation/list?userId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d</string>
+    <string name="api_invitation_check">%1$s/invitation/check?userId=%2$d&amp;email=%3$s</string>
+    <string name="api_invitation_save">%1$s/invitation/save?userId=%2$d&amp;email=%3$s&amp;expiryDay=%4$d&amp;domain=%5$s</string>
+    <string name="api_invitation_accept">%1$s/invitation/accept?id=%2$d</string>
+
+    <string name="api_stamp_list">%1$s/stamp/lite?userId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d</string>
+
+    <string name="dialog_fetch_data_title">Fetch Data</string>
+    <string name="dialog_fetch_data_message">Problem fetching data, try again?</string>
+
+    <string name="save_data_success">Save data success.</string>
+    <string name="save_data_problem">Save data problem , please try again.</string>
+    <string name="fetch_data_problem">Problem fetching data, please try again.</string>
+
+    <string name="data_not_found">Data not found.</string>
+
+    <string name="reset_password_warning">Your password will be reset to the temporary password and sent to your email, please check the email after reset the password. use the password to login, and change the password as you wish to make it easier to login.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="your_email_address">Your email address</string>
+
+    <string name="topup_success_text">
+        <![CDATA[
+            <h3>
+     <b>Congratulation!</b></h3>
+
+        Topup successful submited, please pay by pressing payment and will automatically add to your balance.
+        <br/><br/>
+        <b>The transaction will expire at <i>[_EXPIRED_TIME_]</i> if no payment.</b>
+
+        ]]>
+
+
+    </string>
+
+    <string name="register_success">
+        <![CDATA[
+        Thank you for registering for the DRD subscription.<br/>
+        Subscription registration is successful.<br/><br/>
+
+        Subscription Id: <b>[_SUBCR_ID_]</b><br/>
+        User number: <b>[_REG_NUMBER_]</b><br/><br/>
+
+        The password will be sent to email <b>[_EMAIL_]</b>.
+
+
+        ]]>
+
+
+    </string>
+
+    <!--signature-->
+    <string name="hint_sign">Get Signature</string>
+    <string name="sign_here_title">Sign Here</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+    <string name="bill_details_title">Bill Details</string>
+    <string name="date">Date</string>
+    <string name="date_data">16 Mar 2017</string>
+    <string name="order_no">Order Number</string>
+    <string name="order_no_data">10798565</string>
+    <string name="buyers_name">Buyer\'s Name</string>
+    <string name="buyers_name_data">Umesh</string>
+    <string name="buyers_address">Buyer\'s Address</string>
+    <string name="buyers_address_data">Pratap Nagar</string>
+    <string name="contact_no">Contact Number</string>
+    <string name="contact_no_data">0000000000</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="total_amount_data">Rs 1500</string>
+    <string name="checkbox_text">I have Successfully Received the product</string>
+    <string name="get_signature_text">Get Signature</string>
+</resources>

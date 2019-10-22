@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/colorControlHighlight">
+
+    <Button
+
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="Filter"
+        android:id="@+id/btnFilter"
+        android:textAllCaps="false"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:layout_weight=".5"
+        android:background="@android:color/white"
+        android:singleLine="false"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp" />
+
+    <Button
+        android:textAllCaps="false"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="Sort"
+        android:id="@+id/btnSort"
+        android:layout_weight=".5"
+        android:background="@android:color/white"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp" />
+
+</LinearLayout>

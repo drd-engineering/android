@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">XChat</string>
+
+    <string name="urlApplApi">http://drd.api.makayatech.top/api</string>
+    <string name="urlApplWeb">http://drd.makayatech.top</string>
+    <string name="urlApplBaseApi">http://drd.api.makayatech.top</string>
+
+    <string name="api_member_advisor">%1$s/member/advisor</string>
+    <string name="api_member_contact">%1$s/member/invitedcontact?memberId=%2$d&amp;topCriteria=%3$s&amp;page=%4$d&amp;pageSize=%5$d</string>
+
+    <string name="api_get_msg_sum">%1$s/message/sum?Id=%2$d&amp;maxId=%3$d&amp;topCriteria=%4$s&amp;page=%5$d&amp;pageSize=%6$d</string>
+    <string name="api_get_msg_sum_detail">%1$s/message/sumdetail?myId=%2$d&amp;yourId=%3$d</string>
+    <string name="api_get_msg_sum_detail2">%1$s/message/sumdetail?myId=%2$d&amp;yourId=%3$d&amp;page=%4$d&amp;pageSize=%5$d</string>
+    <string name="api_save_msg">%1$s/message/save</string>
+    <string name="api_set_msg_open">%1$s/message/setopen?fromId=%2$d&amp;toId=%3$d</string>
+    <string name="api_get_msg_new">%1$s/message/getnewmessage?myId=%2$d&amp;yourId=%3$d</string>
+
+
+
+    <string name="save_data_success">Save data success.</string>
+    <string name="save_data_problem">Save data problem , please try again.</string>
+    <string name="fetch_data_problem">Problem fetching data, please try again.</string>
+
+    <string name="data_not_found">Data not found.</string>
+
+</resources>
